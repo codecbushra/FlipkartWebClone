@@ -1,0 +1,16 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: var(--all-bg-color);
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 0 20px;
+    padding: 8px;
+    cursor: pointer;
+}

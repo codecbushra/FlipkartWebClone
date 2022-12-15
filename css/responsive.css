@@ -1,0 +1,39 @@
+@media screen and (max-width:950px) {
+   nav{
+    flex-direction: column;
+    padding: 15px;
+   }
+   /* .logo img{
+    width: 70px;
+    padding: 0 10px;
+}
+nav ul{
+    height: 38px;
+    }
+nav ul li{
+    list-style: none;
+    padding: 0 8px;
+} */
+nav ul{
+    justify-content: center;
+}
+nav ul li{
+    text-align: center;
+    padding: 0 10px;
+}
+.search{
+    align-self: flex-start;
+    margin: 0 35px;
+}
+.search input{
+    width: 50vw;
+    height: 4vh;
+    
+}
+.login{
+    
+    margin-left: 260px;
+    margin-top: -35px;
+    padding: 5px;
+}
+}
